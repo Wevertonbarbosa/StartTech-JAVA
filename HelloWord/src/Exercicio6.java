@@ -5,24 +5,21 @@ public class Exercicio6 {
         
         //Captura da largura
         System.out.println("Qual é a largura da sua piscina?");
-        Scanner width = new Scanner(System.in);
-        double aswerWidth = width.nextDouble();
+        Scanner scanner = new Scanner(System.in);
+        double aswerWidth = scanner.nextDouble();
 
         //Captura da comprimento
         System.out.println("Qual é o comprimento da sua piscina?");
-        Scanner lenght = new Scanner(System.in);
-        double aswerLenght = lenght.nextDouble();
+        double aswerLenght = scanner.nextDouble();
 
         //Desafio 4 valores distintos de profundidade!
         //Captura Profundidade Inicial
         System.out.println("Qual é a profundidade da sua piscina inicialmente?");
-        Scanner lenghtStart = new Scanner(System.in);
-        double aswerLenghtStart = lenghtStart.nextDouble();
+        double aswerLenghtStart = scanner.nextDouble();
 
         //Captura Profundidade Final
         System.out.println("Qual é a profundidade final da sua piscina?");
-        Scanner lenghtEnd = new Scanner(System.in);
-        double aswerLenghtEnd = lenghtEnd.nextDouble();
+        double aswerLenghtEnd = scanner.nextDouble();
 
         //Resultado
         double aswerTotal = (aswerLenghtStart + aswerLenghtEnd)/2 * aswerWidth * aswerLenght;
@@ -30,9 +27,7 @@ public class Exercicio6 {
         System.out.println("Essa piscina comporta "+ volume + " Litros de água.");
 
         //Fechamento dos Scanners
-        width.close();
-        lenght.close();
-        lenghtStart.close();
-        lenghtEnd.close();
+        scanner.close();
+
     }
 }
