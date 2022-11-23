@@ -10,21 +10,22 @@ public class Exercicio6 {
         System.out.println("Digite uma letra:");
         String busca = scanner.nextLine();
         char letra = busca.charAt(0);
-
         int total = 0;
 
 
         for (int x = 0; x < palavra.length(); x++) {
             if (palavra.charAt(x) == letra) {
-                total = x + 1;
+                total++;
             }
         }
         if (total == 0) {
-            System.out.println("Não existem ocorrências da letra " + busca + " Na palavra" + palavra);
+            System.out.println("Não existem ocorrências da letra " + busca + " Na palavra " + palavra);
         } else if (busca.length() > 1) {
-            System.out.println("Erro: Você informou " + palavra + " e " + busca + "" +
+            System.out.println("Erro: Você informou " + palavra + " e " + busca + ", " +
                     "Deve-se informar uma única letra para que o programa" +
-                    " contabilize as ocorrências em" + palavra);
+                    " contabilize as ocorrências em " + palavra);
+        } else {
+            System.out.println("Existe " + total + " ocorrências da letra " +letra+ " na palavra " + palavra);
         }
 
 

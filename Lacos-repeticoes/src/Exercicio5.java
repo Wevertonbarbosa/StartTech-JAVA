@@ -17,7 +17,7 @@ public class Exercicio5 {
         } while (number != win);
 
         System.out.println("Foram necessários, " + total + " " +
-                "sorteios para que o número, " + number + " fosse sorteado");
+                "sorteios para que o número, " + number + " fosse sorteado.");
     }
 }
 
