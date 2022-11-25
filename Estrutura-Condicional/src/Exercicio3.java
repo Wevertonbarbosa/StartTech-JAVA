@@ -1,8 +1,9 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exercicio3 {
     public static void main(String[] args) {
-
+        DecimalFormat decimal = new DecimalFormat("0.00");
         Scanner scanner = new Scanner(System.in);
         int age, parcelas;
         double salario, emprestimo;
@@ -18,16 +19,25 @@ public class Exercicio3 {
 
         double porcentagemS = salario * 0.3;//30% da renda da pessoa
         double porcentagemP = (emprestimo * 0.3) / parcelas;//Porcentagem do empréstimo
+        double porcentagem = (porcentagemP/salario) * 100;//Conta para obter a porcentagem
 
 
-        if (age < 18 || age > 65 || parcelas < 3 || parcelas < 3 || parcelas > 24) {
-            System.out.println("Empréstimo reprovado, você é menor de idade ou excedeu o limite de idade" +
-                    " ou as quantidades de parcelas está incoreta. ");
+        if (age < 18) {
+            System.out.println("a idade não pode ser menor a 18 anos.");
+        } else if (age > 65) {
+            System.out.println("Limite de idade é de 18 até 64 anos.");
+        } else if (parcelas < 3) {
+            System.out.println("Necessário ser maior que 3 parcelas.");
+        } else if (parcelas > 24) {
+            System.out.println("A quantidade de parcelas não pode ser superior a 24.");
         } else if (porcentagemS < porcentagemP) {
-            System.out.println("Empréstimo Reprovado, Saldo não compativel.");
+            System.out.println("O valor da parcela desse empréstimo é de " + decimal.format(porcentagemP) + " reais, " +
+                    "e corresponde a %"+decimal.format(porcentagem)+"" +
+                    " da sua renda. Esse valor não pode ser superior a 30%.");
         } else {
-            System.out.println("Seu foi empréstimo aprovado!");
+            System.out.println("Seu empréstimo foi aprovado!");
         }
+
 
         scanner.close();
     }
