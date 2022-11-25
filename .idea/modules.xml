@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/HelloWord/HelloWord.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lacos-repeticoes/Lacos-repeticoes.iml" filepath="$PROJECT_DIR$/Lacos-repeticoes/Lacos-repeticoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Totvs-Java.iml" filepath="$PROJECT_DIR$/.idea/Totvs-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vetores-Matrizes/Vetores-Matrizes.iml" filepath="$PROJECT_DIR$/Vetores-Matrizes/Vetores-Matrizes.iml" />
     </modules>
   </component>
 </project>
