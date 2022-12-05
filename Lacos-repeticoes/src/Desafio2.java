@@ -15,21 +15,19 @@ public class Desafio2 {
         System.out.println("Quantidades de dados no grupo: ");
         int dados = scanner.nextInt();
 
-
-
         for (int x = 0; x < number; x++) {
-
+            int soma = 0;
             for (int j = 0; j < dados; j++) {
                 int sorteio = random.nextInt(1,7);
                 System.out.print(sorteio);
-                total += sorteio;
+                soma += sorteio;
 
                 if (j < dados - 1 ){
                     System.out.print(" + ");
                 }
             }
-            System.out.println(" = " + total);
-
+            total += soma;
+            System.out.println(" = " + soma);
         }
 
 
