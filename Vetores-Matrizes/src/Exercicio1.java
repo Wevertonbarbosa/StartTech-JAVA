@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Exercicio1 {
     public static void main(String[] args) {
         int [] listNumber = new int[8];
@@ -16,8 +15,5 @@ public class Exercicio1 {
             }
         }
         System.out.println("O maior número é o " + maior + ", e o menor número é o "+ menor);
-
-
-
     }
 }
