@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exercicio1 {
+public class Menor_Maior {
     public static void main(String[] args) {
         int [] listNumber = new int[8];
         int maior = 0, menor = 999999;

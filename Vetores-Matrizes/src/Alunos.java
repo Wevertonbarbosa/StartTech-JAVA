@@ -1,17 +1,30 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class Alunos {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
         Random random = new Random();
-        int sorteio = random.nextInt(args.length);
-        String alunoSorteado = args[sorteio];
-        int gruposDivididos = args.length / 3;
-        String[][] grupos = new String[gruposDivididos][3];
+        int gruposQTD = args.length / 3;
+        String[][] grupos = new String[gruposQTD][3];
 
-        for () {
+        for (int i = 0; i < gruposQTD; i++) {
+            int alunos = 0;
+            while (alunos < 3) {
+                int sorteio = random.nextInt(0, args.length);
 
+                if (!args[sorteio].equals("")) {
+                    grupos[i][alunos] = args[sorteio];
+                    alunos++;
+                    args[sorteio] = "";
+                }
+            }
+        }
+
+        for (String[] grupo : grupos) {
+            System.out.println("Grupo");
+            for (String aluno : grupo) {
+                System.out.println(aluno);
+            }
         }
 
     }
