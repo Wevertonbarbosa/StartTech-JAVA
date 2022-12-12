@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e60d9-f099-4a9c-98b2-524644589ddd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estrutura-Condicional/Exercicio4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Refatorando_Exercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Refatorando_Exercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Refatorando_Exercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Refatorando_Exercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vetores-Matrizes/src/Alunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vetores-Matrizes/src/Alunos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
