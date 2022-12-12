@@ -9,7 +9,9 @@ public class Refatorando_Exercicio2 {
         String letraTemperatura = "";
 
         System.out.println("Qual é a temperatura?");
-        valorTemperatura = scanner.nextDouble();
+        String temperatura = scanner.nextLine();
+        valorTemperatura = Integer.parseInt(temperatura);
+
         System.out.println("Digite C para converter de Celsius para Farenheit ou F de Farenheit para Celsius: ");
         letraTemperatura = scanner.next();
 

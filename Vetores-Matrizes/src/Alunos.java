@@ -1,5 +1,4 @@
 import java.util.Random;
-
 public class Alunos {
     public static void main(String[] args) {
 

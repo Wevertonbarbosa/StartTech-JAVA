@@ -7,16 +7,20 @@ public class Refatorando_Exercicio5 {
         Scanner scanner = new Scanner(System.in);
         double money = 0;
 
-        try {
-            System.out.println("Digite seu salário?");
-            money = scanner.nextDouble();
-            if (money == 0) {
-                throw new IllegalArgumentException("Precisa ser maior que 0, para aplicar o desconto no INSS.");
+        while (true) {
+            try {
+                System.out.println("Digite seu salário?");
+                money = scanner.nextDouble();
+                if (money == 0) {
+                    throw new IllegalArgumentException("Precisa ser maior que 0, para aplicar o desconto no INSS.");
+                }
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Digite apenas Números, não letras ou caractéres.");
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+
             }
-        }catch (InputMismatchException e) {
-            System.out.println("Digite apenas Números, não letras ou caractéres "+ e);
-        }catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
         }
 
         if (money < 1212) {
@@ -38,10 +42,12 @@ public class Refatorando_Exercicio5 {
 
         scanner.close();
     }
-    public static double primeiroCalculo( double salario) {
+
+    public static double primeiroCalculo(double salario) {
         return salario * 0.075;
 
     }
+
     public static double segundoCalculo(double salario) {
         return (salario - 1212) * 0.09 + 90.90;
     }
@@ -52,13 +58,15 @@ public class Refatorando_Exercicio5 {
         double total3 = desc3 + addDesc3 + 90.90;
         return total3;
     }
+
     public static double quartoCalculo(double salario) {
         double addDesc3 = (2427.35 - 1212) * 0.09;
         double desc4 = (3641.03 - 2427.35) * 0.12;
         double descSalario = (salario - 3641.03) * 0.14;
-        double total4 = 90.90 + addDesc3 +  desc4 + descSalario;
+        double total4 = 90.90 + addDesc3 + desc4 + descSalario;
         return total4;
     }
+
     public static double quintoCalculo(double salario) {
         double desc5 = (7087.22 - 3641.03) * 0.14;
         double addDesc3 = (2427.35 - 1212) * 0.09;
@@ -66,9 +74,6 @@ public class Refatorando_Exercicio5 {
         double total5 = 90.90 + addDesc3 + desc4 + desc5;
         return total5;
     }
-
-
-
 
 
 }
