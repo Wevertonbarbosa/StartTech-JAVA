@@ -1,6 +1,10 @@
 public class Piscina {
-    int largura;
-    int comprimento;
-    int profundide;
+    double largura;
+    double comprimento;
+    double profundide;
+
+    double calcularVolume() {
+        return largura * comprimento * profundide;
+    }
 
 }
