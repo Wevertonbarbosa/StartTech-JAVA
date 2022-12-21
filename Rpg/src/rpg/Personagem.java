@@ -1,8 +1,17 @@
 package rpg;
 
+import java.util.Random;
+
 public class Personagem {
 
-    public Integer jogadorHp = 10;
-    public Integer orcHp = 8;
-    public Integer defesa = 10;
+
+
+
+    public int sangueJogador = 10;
+    public int sangueOrc = 8;
+    public int defesa = 10;
+
+    public int ataqueOrc;
+    public int precisao;
+    public int danoJogador;
 }

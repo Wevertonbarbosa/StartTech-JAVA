@@ -1,10 +1,16 @@
 package rpg;
 
+import java.util.Random;
+
 public class Jogo_Rpg {
     public static void main(String[] args) {
 
+        Random random = new Random();
         Combate combate = new Combate();
-        System.out.println("O jogador ataca com a espada! \n"+ combate.calculoDano());
+
+
+        combate.calculoDano();
+
 
     }
 }
