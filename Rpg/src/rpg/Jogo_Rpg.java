@@ -7,7 +7,7 @@ public class Jogo_Rpg {
 
         Combate combate = new Combate();
         System.out.println("Seja Bem vindo ao Jogo!\n");
-        combate.batalhaRodando();
 
+        combate.batalhaRodando();
     }
 }
