@@ -8,6 +8,8 @@ public class Aluno {
         String dataNascimento;
         int matricula;
 
+        
+
     }
 
 }
