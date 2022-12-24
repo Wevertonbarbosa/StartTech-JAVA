@@ -1,3 +1,5 @@
+package todaPiscina;
+
 import java.util.Scanner;
 
 public class Piscina_Objetos {
@@ -7,11 +9,11 @@ public class Piscina_Objetos {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a Largura da Piscina: ");
-        piscina.largura = scanner.nextDouble();
+        piscina.setLargura(scanner.nextDouble());
         System.out.println("Digite o comprimento da Piscina: ");
-        piscina.comprimento = scanner.nextDouble();
+        piscina.setComprimento(scanner.nextDouble());
         System.out.println("Digite a profundidade da Piscina: ");
-        piscina.profundide = scanner.nextDouble();
+        piscina.setProfundidade(scanner.nextDouble());
         System.out.println("O volume dessa piscina é: " + piscina.calcularVolume() + "m³");
     }
 }
