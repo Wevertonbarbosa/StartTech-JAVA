@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Estrutura-Condicional/Estrutura-Condicional.iml" filepath="$PROJECT_DIR$/Estrutura-Condicional/Estrutura-Condicional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/HelloWord/HelloWord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lacos-repeticoes/Lacos-repeticoes.iml" filepath="$PROJECT_DIR$/Lacos-repeticoes/Lacos-repeticoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo_1/Estrutura-Condicional/Estrutura-Condicional.iml" filepath="$PROJECT_DIR$/Modulo_1/Estrutura-Condicional/Estrutura-Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo_1/Lacos-repeticoes/Lacos-repeticoes.iml" filepath="$PROJECT_DIR$/Modulo_1/Lacos-repeticoes/Lacos-repeticoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Totvs-Java.iml" filepath="$PROJECT_DIR$/.idea/Totvs-Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vetores-Matrizes/Vetores-Matrizes.iml" filepath="$PROJECT_DIR$/Vetores-Matrizes/Vetores-Matrizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo_1/Variaveis_OperadoresMatematicos/Variaveis_OperadoresMatematicos.iml" filepath="$PROJECT_DIR$/Modulo_1/Variaveis_OperadoresMatematicos/Variaveis_OperadoresMatematicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo_1/Vetores-Matrizes/Vetores-Matrizes.iml" filepath="$PROJECT_DIR$/Modulo_1/Vetores-Matrizes/Vetores-Matrizes.iml" />
     </modules>
   </component>
 </project>
