@@ -1,4 +1,4 @@
-public class Exercicio4 {
+public class ConversorReais_ex4 {
     public static void main(String[] args) {
         //%.2f Serve para limitar as casas decimais
         //%n pula a linha

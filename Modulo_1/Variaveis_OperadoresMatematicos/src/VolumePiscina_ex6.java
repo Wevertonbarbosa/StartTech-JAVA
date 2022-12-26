@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class VolumePiscina_ex6 {
     public static void main(String[] args) {
         
         //Captura da largura

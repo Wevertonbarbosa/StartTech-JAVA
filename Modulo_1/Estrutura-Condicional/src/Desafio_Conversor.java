@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Refatorando_Exercicio2 {
+public class Desafio_Conversor {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Sorteio_ex4 {
     public static void main(String[] args) {
 
         Random random = new Random();

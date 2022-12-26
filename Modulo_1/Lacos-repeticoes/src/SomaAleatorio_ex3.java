@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class SomaAleatorio_ex3 {
     public static void main(String[] args) {
 
         int number, soma = 0;

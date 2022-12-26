@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Escada_ex2 {
     public static void main(String[] args) {
 
         int number;
@@ -8,11 +8,18 @@ public class Exercicio1 {
         System.out.println("Digite um número:");
         number = scanner.nextInt();
 
-        for (int x = 0; x < number; x++) {
-            if (x % 2 != 0){
-                System.out.println(x);
+        int x = 0, c;
+
+        while (x <= number) {
+            c = 0;
+            while (c < x) {
+                System.out.print(number);
+                c++;
             }
+            System.out.printf("\n");
+            x++;
         }
+
         scanner.close();
     }
 }

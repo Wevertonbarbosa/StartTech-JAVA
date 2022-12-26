@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class NumeroImpares_ex1 {
     public static void main(String[] args) {
 
         int number;
@@ -8,18 +8,11 @@ public class Exercicio2 {
         System.out.println("Digite um número:");
         number = scanner.nextInt();
 
-        int x = 0, c;
-
-        while (x <= number) {
-            c = 0;
-            while (c < x) {
-                System.out.print(number);
-                c++;
+        for (int x = 0; x < number; x++) {
+            if (x % 2 != 0){
+                System.out.println(x);
             }
-            System.out.printf("\n");
-            x++;
         }
-
         scanner.close();
     }
 }

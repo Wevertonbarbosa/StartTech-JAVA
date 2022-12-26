@@ -1,4 +1,4 @@
-public class Exercicio5 {
+public class ConversorCelsius_ex5 {
     public static void main(String[] args) {
 
         double celsius = Double.parseDouble(args[0]);

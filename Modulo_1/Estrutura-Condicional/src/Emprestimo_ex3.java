@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Emprestimo_ex3 {
     public static void main(String[] args) {
         DecimalFormat decimal = new DecimalFormat("0.00");
         Scanner scanner = new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class Exercicio3 {
+public class Milhas_ex3 {
     public static void main(String[] args) {
         final double MILHA = 0.621371;
         double teste =  Double.parseDouble(args[0]);

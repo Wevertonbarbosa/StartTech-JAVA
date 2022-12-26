@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class salaCinema_ex2 {
     public static void main(String[] args) {
 
         System.out.println("Quantas fileiras tem no Cinema?");
