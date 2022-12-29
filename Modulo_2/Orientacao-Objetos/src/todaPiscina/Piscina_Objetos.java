@@ -14,6 +14,6 @@ public class Piscina_Objetos {
         piscina.setComprimento(scanner.nextDouble());
         System.out.println("Digite a profundidade da Piscina: ");
         piscina.setProfundidade(scanner.nextDouble());
-        System.out.println("O volume dessa piscina é: " + piscina.calcularVolume() + "m³");
+        System.out.println("O volume dessa piscina é: " + piscina + "m³");
     }
 }
