@@ -26,10 +26,11 @@ public class Combate {
             contador++;
 
             try {
-                Thread.sleep(4000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+
             if (personagem.precisao > personagem.defesaOrc) {
                 System.out.println("Rodada: " + contador + " " +
                         "\nO jogador ataca com a espada!\n O ataque foi " + personagem.precisao + "" +

@@ -1,7 +1,5 @@
 package aluno;
 
-import utils.Leitor;
-
 public class Aluno {
     private String nomes;
 
