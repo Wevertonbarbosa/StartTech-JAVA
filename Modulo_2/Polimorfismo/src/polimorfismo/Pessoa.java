@@ -3,19 +3,26 @@ package polimorfismo;
 public abstract class Pessoa {
     protected String nome;
     protected String email;
-    protected int CPF;
+    protected long CPF;
     protected int telefone;
-
     protected double deposito;
-    public Pessoa(String nome, String email, int CPF, int telefone, double deposito) {
+
+    protected String razaoSocial;
+    protected long cnpj;
+    public Pessoa() {
         this.nome = nome;
         this.email = email;
         this.CPF = CPF;
         this.telefone = telefone;
         this.deposito = deposito;
+        this.razaoSocial = razaoSocial;
+        this.cnpj = cnpj;
     }
 
-    public abstract void contaFisica();
-    public abstract void contaJuridica();
+    public  abstract void pessoaFISICA();
+    public abstract void pessoaJuridica();
+
+    public abstract void contaCorrente();
+    public abstract void contaPoupanca();
 
 }
